@@ -6,7 +6,7 @@ const HomePage = () => {
       <h1 className="pt-5">
         Bienvenido a <span className="fw-bold">Hapy Cake</span> 🐶
       </h1>
-      <h6> Pasteleria </h6>
+      <h6> El lugar de los pasteles felices </h6>
     </Container>
   );
 };
