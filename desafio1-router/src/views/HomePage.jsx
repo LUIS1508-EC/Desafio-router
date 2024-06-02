@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import happyCake from '../../../assets/img/happyCake.png'
 
 const HomePage = () => {
   return (
@@ -8,7 +7,7 @@ const HomePage = () => {
         Bienvenido a <span className="fw-bold">Hapy Cake</span>
       </h1>
       <h6> El lugar de los pasteles felices </h6>
-      <img src={happyCake} height="200px" />
+      <img className='m-auto d-block' src='../src/assets/happyCake.png' height="200px" />
     </Container>
   );
 };

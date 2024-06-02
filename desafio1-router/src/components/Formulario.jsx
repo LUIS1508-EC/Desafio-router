@@ -13,7 +13,7 @@ const Formulario = () => {
                     <Form.Label>Cuentanos, ¿en que te podemos ayudar?</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button type="submit">Enviar</Button>
+                <Button className='btn btn-danger' type="submit">Enviar</Button>
             </Form>
             
         </>
